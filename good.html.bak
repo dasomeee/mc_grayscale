@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="ko"> 
+<head>
+	<title>megacoding-메가코딩</title>
+	<meta charset="utf-8" /> 
+	<meta name="format-detection" content="telephone=no"><map name="<map name="">
+
+
+	
+    <meta name="title" content="메가코딩 megacoding"/>
+	<meta name="keywords" content="홈페이지, 웹표준, 웹접근성, 반응형, html, xhtml, html5, css, 퍼블리싱, 코딩, 웹, web"/>
+	<meta name="description" content="200만원 미만의 게시판, 갤러리 등 간단한 개발, 스마트폰에서 깨지는 홈페이지 해결방법이 있나요?,홈페이지 디자인은 직접 하고, 코딩만 의뢰 가능한가요?,반응형 홈페이지가 뭔가요?,기존 홈페이지를 웹 접근성으로 할수 없나요?,대략의 코딩 견적가를 알수 있나요?,500page 이상의 대량의 퍼블리싱(코딩),HTML5로 홈페이지를 만들면 장점은?,1페이지 또는 10페이지 내외의 간단한 퍼블리싱(코딩),코딩만 가능하지요?,자체적으로 디자인한 웹페이지 퍼블리싱,랜딩페이지,병원/의원 웹 접근성,저가형 홈페이지,무료 솔루션에 웹표준 코딩(퍼블리싱),스마트폰 등의 모바일 디바이스 최적화 된 웹사이트,혁신적인 인터렉티브 퍼블리싱,움직임이 많은 홈페이지,최적화 된 반응형 웹사이트,크로스브라우징 문제로 웹 표준화가 필요한 웹 사이트,장애인차별금지 법에 해당하는 웹 사이트,대량의 웹사이트 퍼블리싱,중소기업의 간단한 웹사이트 퍼블리싱,안정적 퍼블리싱이 필요한 웹에이전시,B2B, B2C 웹 솔루션의 UI설계 및 구현,웹 표준, 웹 접근성에 대한 노하우가 없는 기업"/>
+	<meta name="Robots" content="INDEX, FOLLOW"/>
+    
+	<link rel="stylesheet" type="text/css" href="./css/common.css" />
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<link rel="stylesheet" type="text/css" href="./css/jquery.bxslider.css" />
+	
+	
+	<script language="JavaScript" type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+	
+	<script language="JavaScript" type="text/javascript" src="./js/jquery.easing.1.3.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/jquery.bxslider.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/jquery.form.js"></script>
+	<script language="JavaScript" type="text/javascript" src="./js/common.js"></script>
+    
+	
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['브라우저', '비율', { role: 'style' }],
+          ['크롬',  0, '#ffffff'],
+          ['IE10',  0, '#ffffff'],
+          ['IE7',  0, '#ffffff'],
+          ['IE9',  0, '#ffffff'],
+          ['IE8',  0, '#ffffff'],
+          ['사파리',  0, '#ffffff'],
+          ['네스케이프',  0, '#ffffff'],
+          ['파이어폭스',  0, '#ffffff'],
+        ]);
+		
+		var view = new google.visualization.DataView(data);
+      view.setColumns([0, 1,
+                       { calc: "stringify",
+                         sourceColumn: 1,
+                         type: "string",
+                         role: "annotation" },
+                       2]);
+		
+		var options = {
+			backgroundColor: {
+				fill:'none',
+			},
+		  fontName: 'MalgunGothic',
+		  legend: 'none',
+		  chartArea:{left:20,top:5,width:"100%",height:"75%"},
+		  vAxis: {minValue:0, maxValue:40,gridlines:{color: '#43c684'}},
+		  animation:{
+        duration: 1000,
+        easing: 'out',
+      },
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+		
+		setTimeout(function(){
+			data.setValue(0,1,30.55);
+			data.setValue(1,1,23.14);
+			data.setValue(2,1,13.88);
+			data.setValue(3,1,12.89);
+			data.setValue(4,1,12.37);
+			data.setValue(5,1,4.81);
+			data.setValue(6,1,1.39);
+			data.setValue(7,1,0.96);
+		chart.draw(view, options);
+		
+		},500);
+
+      }
+	</script>
+<!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 --> 
+
+
+<!-- 네이버 애널리틱스 -->
+<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"> </script> 
+
+<script type="text/javascript"> 
+
+if (!wcs_add) var wcs_add={};
+wcs_add["wa"] = "s_107f9efb08d2";
+if (!_nasa) var _nasa={};
+wcs.inflow();
+wcs_do(_nasa);
+</script>
+
+
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="inner_wrap">
+			<section id="container">
+
+				<div class="wrap_box1">
+					<div class="box_big"><!-- 메인베너 -->
+						<img src="./img/img_wall3.gif" alt="wall" class="wall" />					
+						<div class="main_banner_wrap">
+							<ul class="rolling_wrap">
+								<li>
+										<img src="./img/chnews_main.jpg" alt="조선일보 중문 반응형" class="wall" />
+									<li>
+										<img src="./img/clipartkorea_main.jpg" alt="클립아트코리아" class="wall" />
+									<li>
+										<img src="./img/gumzzi.jpg" alt="금찌 쇼핑몰" class="wall" />
+									<li>
+										<img src="./img/atCenter_main.jpg" alt="에이스카운터" class="wall" />
+									</li>
+                            
+								<!--<li><img src="./img/main_banner1.jpg" class="img100" alt="좋은사람좋은코딩 : 현재 보시는 사이트는 장차법 규격에 맞춘 반응형 웹사이트입니다." /></li> -->
+								<!--<li>
+									<img src="./img/img_wall3.gif" alt="wall" class="wall" />
+									<dl class="roll_survey">
+										<dt>
+											2013년 메가코딩 접속자 웹브라우저 통계-->
+											<!--<span><a href="javascript:left_layer_open_board('ISSUS01','view','5');">접속자 통계 자세히 보기</a></span> -->
+                                          <!--  </br><span><a href="javascript:left_layer_open_board('ISSUS01','view','5');">접속자 통계 자세히 보기</a></span>
+										</dt>
+                                        
+										<dd>
+											<div id="chart_div" style="width: 100%; height: 173px;"></div>
+										</dd>
+									</dl>
+								</li> -->
+								<li>
+									<img src="./img/main_banner2.gif" alt="wall" class="wall" />
+									<dl class="roll_txt1">
+										<dt>나의 목표?</dt>
+										<dd>
+											여기에 있는 소스를 완벽 분석해서<br/>
+											내것으로 만드는 일입니다.
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<img src="./img/main_banner3.gif" alt="wall" class="wall" />
+									<dl class="roll_txt1">
+										<dt>2015년 1월 22일 홈페이지 긁어오면서 시작</dt>
+										<dd class="pr">
+											이 홈페이지를 완벽 분석하여 내 것으로 만들고 레고블록화 할 수 있도록 하겠슴다! <br/>
+										</dd>
+									</dl>
+								</li>
+								<!--<li><img src="./img/main_banner4.gif" alt="wall" class="wall" /></li>-->
+							</ul>
+						</div>
+						<script language="javascript" type="text/javascript">
+						//<![CDATA[
+						$(window).load(function(){
+							var slider = $('.rolling_wrap').bxSlider({
+								mode: 'horizontal',
+								controls: true,
+									auto:true
+							});
+						});
+						
+						//]]>
+						</script>
+					</div>
+					<div class="box"><!-- 견적문의 -->
+						<img src="./img/img_wall4.gif" alt="wall" class="wall" />
+						<div class="inner_box_counsel">
+							<div class="on_box">
+								<a class="top trans_short" onClick="alert('공사중');"><span><em>견적문의</em>담당자 검토 후 비용산출</span><img src="./img/img_wall5_top.gif" alt="wall" /></a>
+								<a class="bottom trans_short" onClick="alert('공사중');"><span><em>셀프견적</em>다이렉트 비용산출</span><img src="./img/img_wall5_bottom.gif" alt="wall" /></a>
+							</div>
+							<div class="off_box">
+								<img src="./img/img_wall4.gif" alt="wall" class="wall" />
+								<h3 class="title">견적문의</h3>
+								<p class="comment1">02-554-4562<br/><a href="mailto:mega@megacoding.com">mega@megacoding.com</a></p>
+								<p class="comment2">디자인신화</p><p class="comment2">이벤트</p><p class="comment2">벤치마킹 사이트</p>								<!--p class="comment2">공공기관 - 영업비밀보호센터 홈페이지</p-->
+								<a href="#self" class="more"><img src="./img/btn_more1.gif" alt="more" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="box" onclick="left_layer_open_board('portfolio01','list','');"><!-- 포토폴리오 -->
+						<img src="./img/img_wall1.png" alt="wall" class="wall" />
+						<dl class="inner_box_portfolio">
+							<dt>Since 2008</dt>
+							<dd class="number">
+								<span><em></em></span>
+								<span><em></em></span>
+								<span><em></em></span>
+							</dd>
+							<dd class="txt">PORTFOLIO</dd>
+						</dl>
+												<script language="javascript" type="text/javascript">
+						$(window).load(function(){
+							//꼭 3자리 숫자기입
+							portfolio_count_active('284','999');
+						});
+						</script>
+					</div>
+					<div class="box"><!-- FAQ -->
+						<img src="./img/img_wall1.png" alt="wall" class="wall" />
+						<dl class="inner_box_notice">
+							<dt>FAQ</dt>
+							<dd>
+								<ul>
+									<li><a href="javascript:left_layer_open_board('FAQ01','view','20');">워드프레스 쓰지 않는 반응형?</a></li><li><a href="javascript:left_layer_open_board('FAQ01','view','19');">200만원 미만의 게시판, 갤러리 등 간단한 ...</a></li><li><a href="javascript:left_layer_open_board('FAQ01','view','18');">스마트폰에서 깨지는 홈페이지 해결방법이 ...</a></li><li><a href="javascript:left_layer_open_board('FAQ01','view','17');">홈페이지 디자인은 직접 하고, 코딩만 의뢰 가...</a></li><li><a href="javascript:left_layer_open_board('FAQ01','view','16');">반응형 홈페이지가 뭔가요?</a></li><li><a href="javascript:left_layer_open_board('FAQ01','view','15');">기존 홈페이지를 웹 접근성으로 할수 없나...</a></li><li><a href="javascript:left_layer_open_board('FAQ01','view','13');">대략의 코딩 견적가를 알수 있나요?</a></li><li><a href="javascript:left_layer_open_board('FAQ01','view','12');">2013년 사례별 주요 프로젝트</a></li><li><a href="javascript:left_layer_open_board('FAQ01','view','11');">500page 이상의 대량의 퍼블리싱(코딩)</a></li><li><a href="javascript:left_layer_open_board('FAQ01','view','10');">HTML5로 홈페이지를 만들면 장점은?</a></li>									
+								</ul>
+							</dd>
+						</dl>
+						<a href="javascript:left_layer_open_board('FAQ01','list','');" class="conts_more_btn"><img src="./img/btn_more2.gif" alt="more" /></a> 
+					</div>
+					<div class="box"><!-- NEW -->
+						<img src="./img/img_wall1.png" alt="wall" class="wall" />
+						<dl class="inner_box_notice">
+							<dt>NEWS</dt>
+							<dd>
+								<ul>
+									<li><a href="javascript:left_layer_open_board('board01','view','42');">한국형 '모바일 앱 접근성 지침' 공개</a></li><li><a href="javascript:left_layer_open_board('board01','view','41');">2013년 자체 인터넷 사용자 환경 조사</a></li><li><a href="javascript:left_layer_open_board('board01','view','39');">한국형 웹 콘텐츠 접근성 지침 2.1</a></li><li><a href="javascript:left_layer_open_board('board01','view','38');">미래부, 웹 접근성 품질인증기관 4개 지정</a></li><li><a href="javascript:left_layer_open_board('board01','view','36');">액티브X 대안 웹표준 준수한 나모인터랙티브 ...</a></li><li><a href="javascript:left_layer_open_board('board01','view','34');">SKT ‘모바일T월드’, 통신업계 최초 앱 접근성...</a></li><li><a href="javascript:left_layer_open_board('board01','view','33');">공인 웹 접근성 품질인증기관 홈페이지 주...</a></li><li><a href="javascript:left_layer_open_board('board01','view','32');">미래부, 웹 접근성 품질인증기관 4개 지정</a></li><li><a href="javascript:left_layer_open_board('board01','view','31');">크롬에서 나눔고딕 볼드체 그림차 현상 해...</a></li><li><a href="javascript:left_layer_open_board('board01','view','30');">정보통신 장애 환경이해</a></li>									
+								</ul>
+							</dd>
+						</dl>
+						<a href="javascript:left_layer_open_board('board01','list','');" class="conts_more_btn"><img src="./img/btn_more2.gif" alt="more" /></a> 
+					</div>
+				</div>				
+
+				<div class="wrap_box2">
+					<div class="box"><!-- 메가코딩 -->
+						<img src="./img/img_wall1.png" alt="wall" class="wall" />
+						<div class="inner_box_three trans_short">
+							<div class="conts_box">
+								<p class="logo"><img src="./img/logo.gif" alt="메가코딩" class="trans_short" /></p>
+								<br><br>
+								<div class="three_cause">
+									<span class="number"><em>0 1 2 3 4 5 6 7 8 9</em></span>
+									<span class="txt">원칙</span>
+									Time<br/>Professional<br/>Continuous
+								</div>
+							</div>
+							<div class="copy">©Copyright Modernia All Rights Reserved.</div>
+						</div>
+					</div>
+					<div class="box"><!-- 비즈니스 -->
+						<img src="./img/img_wall1.png" alt="wall" class="wall" />
+						<dl class="inner_box_notice">
+							<dt>BUSINESS</dt>
+							<dd>
+								<ul class="business">
+									<li><a href="javascript:left_layer_open_board('notice01','view','3');">메가코딩 소개</a></li>
+									<li><a href="javascript:left_layer_open_board('notice01','view','9');">메가코딩이 좋은 4가지 이유</a></li>
+									<li><a href="javascript:left_layer_open_board('notice01','view','8');">프리랜서 중심의 기업과 확실 한 차이</a></li>
+									<li><a href="javascript:left_layer_open_board('notice01','view','7');">웹 프로젝트의 중심이 되어버린 퍼블리싱(코딩)</a></li>
+									<li><a href="javascript:left_layer_open_board('notice01','view','6');">Publishing + UX/UI Planning</a></li>
+									<li><a href="javascript:left_layer_open_board('notice01','view','5');">사례별 주요 프로젝트</a></li>
+									<li><a href="javascript:left_layer_open_board('notice01','view','11');">웹 접근성이란?</a></li>
+									<li><a href="javascript:left_layer_open_board('notice01','view','10');">장애인차별금지법은?</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+
+					<div class="box"><!-- 지도 -->
+						<img src="./img/img_wall1.png" alt="wall" class="wall" />
+						<dl class="inner_box_contact">
+							<dt>CONTACT</dt>
+							<dd><img src="./img/img_map.gif" alt="오시는길 지도" class="trans_short" /></dd>
+						</dl>
+					</div>
+				</div>
+
+				<div class="wrap_box3">
+					<div class="box"><!-- 코딩의 중요성 -->
+						<img src="./img/img_wall1.png" alt="wall" class="wall" />
+						<div class="inner_box_important">
+							<img src="./img/img_wall6.png" alt="" class="cover1 trans_short" />
+							<img src="./img/img_wall6_on.png" alt="" class="cover2 trans_short" />
+						  <dl>
+								<dt>100 만원대,<br/>합리적으로 저가형 제작</dt>
+								<dd><a href="javascript:left_layer_open_board('FAQ01','view','19');">고객사에서 제공한 디자인을 웹 표준 퍼블리싱을 적용하여 스마트폰이나 타블릿에서도 깨지지 않는 홈페이지 제작 가능하며, PHP로 개발된 게시판, 갤러리, 견적문의, 신청폼, 회원가입, 관리툴 개발 지원까지 가능합니다.<br/>호스팅, 도메인 등 기초적인 서버세팅 까지 지원해드립니다.<br/>
+								</a><br/>
+							  <a href="javascript:left_layer_open_board('portfolio01','list','','','저가형','0','');">구축사례보기</a><br/><br/>
+							  <a href="javascript:left_layer_open('counsel_simple');" >셀프견적 바로보기</a></dd>
+							</dl>
+						</div>
+					</div>
+					<div class="box"><!-- 키워드 -->
+						<img src="./img/img_wall1.png" alt="wall" class="wall" />
+						<dl class="inner_box_notice">
+							<dt>Mega 노하우</dt>
+							<dd>
+                           		<ul>
+									<li><a href="javascript:left_layer_open_board('konwhow01','view','18');">[SSL 암호화] SSL에 대해서</a></li><li><a href="javascript:left_layer_open_board('konwhow01','view','17');">[개인정보보호방침] 어느 범위까지 어떻게 보...</a></li><li><a href="javascript:left_layer_open_board('konwhow01','view','16');">하이브리드웹은 무엇일까요?</a></li><li><a href="javascript:left_layer_open_board('konwhow01','view','15');">iOS 디바이스별 해상도</a></li><li><a href="javascript:left_layer_open_board('konwhow01','view','14');">안드로이드 버전별 제작 해상도</a></li><li><a href="javascript:left_layer_open_board('konwhow01','view','13');">[공개문서] 프로젝트 사이트맵 및 체크리스...</a></li><li><a href="javascript:left_layer_open_board('konwhow01','view','12');">[지도API] 웹에 지도 붙이기</a></li><li><a href="javascript:left_layer_open_board('konwhow01','view','11');">[검색노출] 검색 노출은 메타 태그 부터</a></li><li><a href="javascript:left_layer_open_board('konwhow01','view','10');">[검색노출] 시맨틱 마크업으로 검색노출 강...</a></li><li><a href="javascript:left_layer_open_board('konwhow01','view','7');">[네이버 웍스] 회사 도메인으로 네이버 메일 ...</a></li>									
+
+								</ul>
+							</dd>
+						</dl>
+						<a href="javascript:left_layer_open_board('konwhow01','list','');" class="conts_more_btn"><img src="./img/btn_more2.gif" alt="more" /></a>
+					</div>
+					<div class="box"><!-- 코딩이슈 -->
+						<img src="./img/img_wall1.png" alt="wall" class="wall" />
+						<dl class="inner_box_notice">
+							<dt>Mega Source</dt>
+							<dd>
+								<ul class="business">
+									<li><a href="javascript:left_layer_open_board('board02','view','10');">일반적인 gnb 스타일</a></li><li><a href="javascript:left_layer_open_board('board02','view','9');">자주쓰는 lnb [소스첨부]</a></li><li><a href="javascript:left_layer_open_board('board02','view','8');">일반적인 탭메뉴 스타일</a></li><li><a href="javascript:left_layer_open_board('board02','view','7');">일반적인 웹접근성 게시판 스타일</a></li><li><a href="javascript:left_layer_open_board('board02','view','6');">자주하는 질문(FAQ) 마크업</a></li><li><a href="javascript:left_layer_open_board('board02','view','5');">접근성을 위한 스킵(skip)네비게이션</a></li><li><a href="javascript:left_layer_open_board('board02','view','4');">게시판의 페이지 숫자를 표시하는 마크업</a></li>									
+
+								</ul>
+							</dd>
+						</dl>
+						<a href="javascript:left_layer_open_board('board02','list','');" class="conts_more_btn"><img src="./img/btn_more2.gif" alt="more" /></a>
+					</div>
+				</div>
+			</section><!-- end : id : container -->
+			
+		</div><!-- end : id : inner_wrap -->
+
+		<section id="top_wrap">
+			<div id="map" class="map_wrap">
+				
+			</div>			
+			<script type="text/javascript" src="http://apis.daum.net/maps/maps3.js?apikey=dd68dd860a721a9c7fe78b7b7b8bc804851ece4e" charset="utf-8"></script>
+			
+			<!-- 지도맵 불러와서 내용을 보여준다. -->
+			<script type="text/javascript">
+				$(window).load(function(){
+					init({
+						set_id : "map" ,
+						xylocation : [37.5100391, 127.0344732] ,
+						info_window : 
+						'<div style="margin: 20px 20px 30px 20px; font-size:12px; line-height:18px; color:#666; ">'
+						+'<p style="padding-bottom:10px;"><img src="./img/logo.gif" alt="진수홈" /></p>'
+						+'<strong style="color:#000; line-height:20px;">진수홈</strong><br/>'
+						+'전화번호 : 02-123-4567<br/>'
+						+'팩스번호 : 02-123-4567<br/>'
+						+'이메일 : jinsu@skhu.ac.kr<br/>'
+						+'주소 : 서울시 구로구 성공회대학교</div>'
+					});
+				});
+			</script>
+			<a href="#self" class="top_close"><img src="./img/btn_top_close.gif" alt="지도닫기" /></a>
+		</section><!-- end : id : top_wrap -->
+
+		<section id="left_wrap">
+			<!-- loading_wrap 옆에 close 를 붙이면 로딩레이어가 사라집니다. -->
+			<div class="loading_wrap"><img src="./img/loading.gif" alt="loading" /></div>
+
+			<div class="notice_wrap">			
+			</div>			
+		</section><!-- end : id : left_wrap -->
+	
+		<footer id="footer">
+			교명: 성공회대학교  대표 : 이진수    주소 : 서울시 구로구 <br/>
+			대표전화 : 02-123-4567    이메일 : <a href="test@skhu.ac.kr">test@skhu.ac.kr</a> <br />
+			세줄이 좋네요...
+		</footer>
+	</div><!-- end : id : wrap -->
+	
+
+</body>
+
+</html>
